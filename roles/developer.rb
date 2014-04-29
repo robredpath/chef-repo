@@ -3,7 +3,7 @@ description "For Developer machines"
 run_list(
 	"recipe[irc]",
 	"recipe[git]",
-	"recipe[chruby::system]"
+	"recipe[chruby::system]",
 	"recipe[virtualbox]"
 )
 
